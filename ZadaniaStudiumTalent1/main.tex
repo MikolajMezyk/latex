@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Zadania Studium Talent 1}
+\author{Mikołaj Mężyk }
+\date{December 2021}
+
+\begin{document}
+
+\maketitle
+
+\section{Definicja kresu dolnego}
+\Large
+L = inf B \Leftrightarrow \begin{array}{cc}
+     &  1. \forall $ $ b \in B : b \geq L\\
+     & 2. \forall $ $ \varepsilon > 0 $ $\exists b_\varepsilon \in B < L- \varepsilon
+\end{array}
+\section{Ciągi}
+Niech m = Cn\\
+Jeśli n\to \infty,$ to m$\to\infty\\
+\lim_{m\to\infty}(1+\frac{1}{m})^m=e\\
+\\
+$Jeśli Cn$\to -\infty $, to $ (1+\frac{1}{Cn})^{Cn}_{n\to\infty}\to e\\
+\lim_{n\to\infty}(1+\frac{1}{Cn})^{Cn}=L\\
+$Niech m = -Cn$ \longrightarrow$jeżeli n$\to\infty$, to m$\to\infty\\
+L = \lim_{m\to\infty}(1-\frac{1}{m})^{-m}=\lim_{m\to\infty}(\frac{1}{\frac{m-1}{m}})^m=\lim_{m\to\infty}(\frac{m}{m-1}})^m\\
+$Niech a = m-1$\\
+L = \lim_{a\to\infty}(\frac{a+1}{a})^{a+1}=\lim_{a\to\infty}[(\frac{a+1}{a})(1+\frac{1}{a})^a]=e \\
+\lim_{n\to\infty}(\frac{a+1}{a})=1 $ $\land$ $\lim_{n\to\infty}(1+\frac{1}{a})^a=e
+\section{Limesy}
+\Large
+\lim_{n \to \infty} (\frac{5n-1}{5n+3})^{2n-1} \\
+\\
+(\frac{5n-1}{5n+3})^{2n-1} = [(\frac{5n+3}{5n-1})^{2n-1}]^{-1} = [(\frac{5n-1}{5n-1} + \frac{4}{5n-1})^{2n-1}]^{-1} = \\
+\\
+= [(1 + \frac{1}{\frac{5n-1}{4}})^{\frac{5n-1}{4}*\frac{8}{5} - \frac{3}{5}}]^{-1} = 
+[e^{\frac{8}{5}}:1]^{-1} = e^{-\frac{8}{5}}
+\\
+\\
+\\
+\lim_{n \to \infty} (\frac{5n-1}{6n+2})^n = 0, $ ponieważ $ \lim_{n \to \infty} (\frac{5n-1}{6n+2}) = 0
+\\
+\\
+\lim_{n \to \infty} (\frac{5n-1}{3n+2})^n = \infty, $ ponieważ $ \lim_{n \to \infty} (\frac{5n-1}{3n+2}) = \infty
+
+\end{document}
